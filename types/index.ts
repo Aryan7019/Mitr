@@ -15,7 +15,7 @@ export interface MentalHealthData {
   sleepQuality: number;
   moodScore: number;
   insights: string[];
-  resources: Resource[];
+  resources?: Resource[];
 }
 
 export interface Resource {
